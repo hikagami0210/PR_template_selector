@@ -1,1 +1,1 @@
-Github PRテンプレートを複数用意したい時に使うChrome拡張機能です
+# Github PRテンプレートを複数用意したい時に使うChrome拡張機能です
