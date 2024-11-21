@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>テンプレート設定</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Github PR Template Selector</h1>
+    <form id="template-form" class="form">
+      <label for="repo-name">リポジトリ名：</label>
+      <input type="text" id="repo-name" required />
+      <br />
+      <label for="template-names">テンプレート名：</label>
+      <textarea id="template-names" rows="5" cols="50" required></textarea>
+      <p>※.mdを除くテンプレートファイル名をカンマ区切りで入力してください</p>
+      <br />
+    </form>
+    <button id="update-button">保存</button>
+    <h2>登録済みテンプレート</h2>
+    <div id="template-list"></div>
+    <script src="options.js"></script>
+  </body>
+</html>
