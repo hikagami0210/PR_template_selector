@@ -1,4 +1,3 @@
 # TEST 2
 
-テスト 2
-[]: # # TEST 2
+# .github/PULL_REQUEST_TEMPLATE/test2.md が表示されています
