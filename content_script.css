@@ -1,0 +1,40 @@
+.template-selector {
+  background-color: #212830;
+  box-sizing: border-box;
+  font-size: var(--body-font-size, 14px);
+  border-color: #3d434d;
+  border-radius: 6px;
+  padding: 6px 22px 6px 12px;
+}
+
+.template-selector:focus {
+  outline: none;
+}
+
+.template-selector:hover {
+  background-color: #272c36;
+}
+
+.pr-select-wrapper > select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.pr-select-wrapper {
+  position: relative;
+  width: min-content;
+}
+
+/* 逆三角の擬似要素 */
+.pr-select-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 40%;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 5px solid transparent;
+  border-top-color: #fff;
+  margin-top: -3px;
+}

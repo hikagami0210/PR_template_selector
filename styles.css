@@ -1,0 +1,65 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  max-width: fit-content;
+  /* ベースのフォントサイズを指定 */
+  --body-font-size: 24px;
+}
+
+h1,
+h2 {
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  margin-top: 5px;
+}
+
+button {
+  margin-top: 10px;
+}
+
+.template-item {
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+pre {
+  background-color: #f8f8f8;
+  padding: 10px;
+  overflow: auto;
+}
+
+.form label {
+  font-size: 1.3em;
+}
+
+.form input,
+textarea {
+  font-size: large;
+}
+
+.form p {
+  font-size: 1em;
+  color: #666666;
+}
+
+.p-title {
+  font-size: 1.2em;
+}
+
+ul {
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
