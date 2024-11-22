@@ -3,7 +3,7 @@ name: Bug
 about: 不具合が発生した時
 title: ''
 labels: ''
-assignees: ''
+assignees: hikagami0210
 
 ---
 

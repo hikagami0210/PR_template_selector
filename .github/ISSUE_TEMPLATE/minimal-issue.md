@@ -1,5 +1,5 @@
 ---
-name: minimal issue
+name: Minimal issue
 about: とりあえず起票する用の最小テンプレート
 title: ''
 labels: ''
