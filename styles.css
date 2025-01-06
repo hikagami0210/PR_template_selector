@@ -57,9 +57,12 @@ textarea {
 
 .p-title {
   font-size: 1.2em;
+  margin-block-start: 0;
+  margin-block-end: 4px;
 }
 
 ul {
   font-size: 1rem;
   margin-bottom: 8px;
+  margin-block-start: 0;
 }

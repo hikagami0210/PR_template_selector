@@ -1,18 +1,21 @@
 {
   "manifest_version": 3,
-  "name": "GitHub PR Template Selector",
+  "name": "GitHub PullRequest Template Selector",
   "version": "1.0.0",
-  "description": "GitHubのPR作成ページでテンプレートを選択できるようにする拡張機能",
+  "description": "GitHubのPR作成ページでテンプレートを選択できるようにする拡張機能です。",
   "permissions": ["storage"],
   "options_page": "options.html",
   "content_scripts": [
     {
-      "matches": [
-        "https://github.com/*/*/compare*",
-        "https://github.com/*/*/pull/new*"
-      ],
+      "matches": ["https://github.com/*"],
       "js": ["content_script.js"],
       "css": ["content_script.css"]
     }
-  ]
+  ],
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
 }
